@@ -1,0 +1,5170 @@
+{
+    "table_name": "com_us_ps_mart.rpt_01_op_de_21d_dispo_hist_hc",
+    "columns": [
+        {
+            "name": "enrollment_key",
+            "description": "Unique identifier assigned to healthcare providers by Medicare and Medicaid during the enrollment process for these government healthcare programs",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "enrollment_key"
+            ],
+            "keyword_description": [
+                "unique",
+                "identifier",
+                "assigned",
+                "to",
+                "healthcare",
+                "providers",
+                "by",
+                "medicare",
+                "and",
+                "medicaid",
+                "during",
+                "the",
+                "enrollment",
+                "process",
+                "for",
+                "these",
+                "government",
+                "healthcare",
+                "programs"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Patient_ID",
+            "description": "Unique Patient Identifier, used in healthcare settings to accurately match patients with their health records",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": ["active patient"],
+            "keyword_name": [
+                "patient_id"
+            ],
+            "keyword_description": [
+                "unique",
+                "patient",
+                "identifier,",
+                "used",
+                "in",
+                "healthcare",
+                "settings",
+                "to",
+                "accurately",
+                "match",
+                "patients",
+                "with",
+                "their",
+                "health",
+                "records"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "legacy_id",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "legacy_id"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "pat_initials",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "pat_initials"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Gender",
+            "description": "Patient's Gender",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "gender"
+            ],
+            "keyword_description": [
+                "patient's",
+                "gender"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Birthday",
+            "description": "Patient date of birth",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "birthday"
+            ],
+            "keyword_description": [
+                "patient",
+                "date",
+                "of",
+                "birth"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Product",
+            "description": "Product Name",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "product"
+            ],
+            "keyword_description": [
+                "product",
+                "name"
+            ],
+            "keyword_categorical_values": [
+                "FIRAZYR",
+                "ELAPRASE",
+                "KALBITOR",
+                "GATTEX",
+                "TAKHZYRO NON-PEDIATRIC",
+                "ARALAST",
+                "VPRIV",
+                "GLASSIA",
+                "CINRYZE",
+                "ICATIBANT AG",
+                "TAKHZYRO PEDIATRICS"
+            ]
+        },
+        {
+            "name": "Therapeutic_Area",
+            "description": "Code indicating Therapeutic Area which is basically the field of medicine focused on treating specific diseases or conditions",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "therapeutic_area"
+            ],
+            "keyword_description": [
+                "code",
+                "indicating",
+                "therapeutic",
+                "area",
+                "which",
+                "is",
+                "basically",
+                "the",
+                "field",
+                "of",
+                "medicine",
+                "focused",
+                "on",
+                "treating",
+                "specific",
+                "diseases",
+                "or",
+                "conditions"
+            ],
+            "keyword_categorical_values": [
+                "HAE",
+                "LSD",
+                "GI",
+                "A1"
+            ]
+        },
+        {
+            "name": "PSM_Name",
+            "description": "Patient Support Manager Name",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "psm_name"
+            ],
+            "keyword_description": [
+                "patient",
+                "support",
+                "manager",
+                "name"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "PAM_OAS_Name",
+            "description": "PAM or OAS Name. PSM's report to PAM or OAS",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "pam_oas_name"
+            ],
+            "keyword_description": [
+                "pam",
+                "or",
+                "oas",
+                "name.",
+                "psm's",
+                "report",
+                "to",
+                "pam",
+                "or",
+                "oas"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "PAM_User_Role",
+            "description": "Patient Access Manager Category : Outpatient Access Specialist (OAS) , Patient Services Manager(PSM) , Patient Services lead(PSL)",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "pam_user_role"
+            ],
+            "keyword_description": [
+                "patient",
+                "access",
+                "manager",
+                "category",
+                ":",
+                "outpatient",
+                "access",
+                "specialist",
+                "(oas)",
+                ",",
+                "patient",
+                "services",
+                "manager(psm)",
+                ",",
+                "patient",
+                "services",
+                "lead(psl)"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "PAM_Email",
+            "description": "Patient Access Manager Email",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "pam_email"
+            ],
+            "keyword_description": [
+                "patient",
+                "access",
+                "manager",
+                "email"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "PSM_Email",
+            "description": "Patient Support Manager Email",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "psm_email"
+            ],
+            "keyword_description": [
+                "patient",
+                "support",
+                "manager",
+                "email"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "cne",
+            "description": "Certified Nurse Educator Name",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "cne"
+            ],
+            "keyword_description": [
+                "certified",
+                "nurse",
+                "educator",
+                "name"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "rbm",
+            "description": "Regional Business Manager Name",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "rbm"
+            ],
+            "keyword_description": [
+                "regional",
+                "business",
+                "manager",
+                "name"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "rbd",
+            "description": "Regional Business Director Name",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "rbd"
+            ],
+            "keyword_description": [
+                "regional",
+                "business",
+                "director",
+                "name"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "cm_terr_key",
+            "description": "Territory ID : Company's own geographical bifurcation",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "cm_terr_key"
+            ],
+            "keyword_description": [
+                "territory",
+                "id",
+                ":",
+                "company's",
+                "own",
+                "geographical",
+                "bifurcation"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "cm_terr_key_ref_ps_pat_us",
+            "description": "Territory ID : Company's own geographical bifurcation",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "cm_terr_key_ref_ps_pat_us"
+            ],
+            "keyword_description": [
+                "territory",
+                "id",
+                ":",
+                "company's",
+                "own",
+                "geographical",
+                "bifurcation"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "referring_hcp_zip",
+            "description": "Case Doctor's  zip code . Provides information on geography",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "referring_hcp_zip"
+            ],
+            "keyword_description": [
+                "case",
+                "doctor's",
+                "zip",
+                "code",
+                ".",
+                "provides",
+                "information",
+                "on",
+                "geography"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Case_ID",
+            "description": "Unique identifier for cases",
+            "id": "Yes",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": ["Start Form Received"],
+            "keyword_name": [
+                "case_id"
+            ],
+            "keyword_description": [
+                "unique",
+                "identifier",
+                "for",
+                "cases"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "case_disposition_id",
+            "description": "Unique identifier for dispositions",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "case_disposition_id"
+            ],
+            "keyword_description": [
+                "unique",
+                "identifier",
+                "for",
+                "dispositions"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "case_typ",
+            "description": "Commercial: Commercial Insurance cases; Coupons: Manufactured sponsered discounts cases;",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "case_typ"
+            ],
+            "keyword_description": [
+                "commercial:",
+                "commercial",
+                "insurance",
+                "cases;",
+                "coupons:",
+                "manufactured",
+                "sponsered",
+                "discounts",
+                "cases;"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "case_type",
+            "description": "Commercial: Commercial Insurance cases; Coupons: Manufactured sponsered discounts cases;",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "case_type"
+            ],
+            "keyword_description": [
+                "commercial:",
+                "commercial",
+                "insurance",
+                "cases;",
+                "coupons:",
+                "manufactured",
+                "sponsered",
+                "discounts",
+                "cases;"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Color_Mapping",
+            "description": "Status of disposition Red; Green; On Hold. ",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": ["active patient"],
+            "keyword_name": [
+                "color_mapping"
+            ],
+            "keyword_description": [
+                "status",
+                "of",
+                "disposition",
+                "red;",
+                "green;",
+                "on",
+                "hold."
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Process_Step",
+            "description": "Groups similar dispositions into steps/process",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "process_step"
+            ],
+            "keyword_description": [
+                "groups",
+                "similar",
+                "dispositions",
+                "into",
+                "steps/process"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Disposition_Reason",
+            "description": "Provides the disposition (patient journey) reason description",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": ["discontinued therapy", "switching therapy"],
+            "keyword_name": [
+                "disposition_reason"
+            ],
+            "keyword_description": [
+                "provides",
+                "the",
+                "disposition",
+                "(patient",
+                "journey)",
+                "reason",
+                "description"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "disposition_subtype",
+            "description": "Provides more information after breaking each disposition reason by sub type",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "disposition_subtype"
+            ],
+            "keyword_description": [
+                "provides",
+                "more",
+                "information",
+                "after",
+                "breaking",
+                "each",
+                "disposition",
+                "reason",
+                "by",
+                "sub",
+                "type"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Disposition_Start_Date",
+            "description": "Date when Disposition was Opened",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "disposition_start_date"
+            ],
+            "keyword_description": [
+                "date",
+                "when",
+                "disposition",
+                "was",
+                "opened"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Disposition_End_Date",
+            "description": "Date when Disposition was Closed",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "disposition_end_date"
+            ],
+            "keyword_description": [
+                "date",
+                "when",
+                "disposition",
+                "was",
+                "closed"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Limited_Services",
+            "description": "value either 0.0 or 1.0",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "limited_services"
+            ],
+            "keyword_description": [
+                "value",
+                "either",
+                "0.0",
+                "or",
+                "1.0"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "SF_First_Received",
+            "description":"The date when start form was first received from the patient",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "sf_first_received"
+            ],
+            "keyword_description": [
+                "earliest",
+                "start",
+                "form",
+                "receipt",
+                "date",
+                "earliest",
+                "for",
+                "patient",
+                "&",
+                "product",
+                "combination"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "SF_Last_Received",
+            "description": "Latest start form received date",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "sf_last_received"
+            ],
+            "keyword_description": [
+                "latest",
+                "start",
+                "form",
+                "receipt",
+                "date",
+                "earliest",
+                "for",
+                "patient",
+                "&",
+                "product",
+                "combination"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "start_form_complete_date",
+            "description": "Start form completion date",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "start_form_complete_date"
+            ],
+            "keyword_description": [
+                "start",
+                "form",
+                "completion",
+                "date"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "calculated_sf_completed_date",
+            "description": "Initial start form completion date",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "calculated_sf_completed_date"
+            ],
+            "keyword_description": [
+                "initial",
+                "start",
+                "form",
+                "completion",
+                "date"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "prod_shipped_dt",
+            "description": "product shipment date to patient",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": ["patient shipped"],
+            "keyword_name": [
+                "prod_shipped_dt"
+            ],
+            "keyword_description": [
+                "latest",
+                "date",
+                "when",
+                "product",
+                "was",
+                "shipped",
+                "to",
+                "patient"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Product_First_Shipped_Dt",
+            "description": "Date when product was shipped to patient first time",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "product_first_shipped_dt"
+            ],
+            "keyword_description": [
+                "date",
+                "when",
+                "product",
+                "was",
+                "shipped",
+                "to",
+                "patient",
+                "first",
+                "time"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "current_coupon_or_commercial",
+            "description": "?",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "current_coupon_or_commercial"
+            ],
+            "keyword_description": [
+                "?"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "current_coupon_or_commercial_case",
+            "description": "?",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "current_coupon_or_commercial_case"
+            ],
+            "keyword_description": [
+                "?"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "site_of_care_nm",
+            "description": "It is the physical location where a patient gets care, hospital or clinic",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "site_of_care_nm"
+            ],
+            "keyword_description": [
+                "it",
+                "is",
+                "the",
+                "physical",
+                "location",
+                "where",
+                "a",
+                "patient",
+                "gets",
+                "care,",
+                "hospital",
+                "or",
+                "clinic"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "missing_info_flag_orig",
+            "description": "Start form missing info reason",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "missing_info_flag_orig"
+            ],
+            "keyword_description": [
+                "start",
+                "form",
+                "missing",
+                "info",
+                "reason"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "addr_city",
+            "description": "Patient City ",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "addr_city"
+            ],
+            "keyword_description": [
+                "patient",
+                "city"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "addr_state",
+            "description": "Patient State code",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "addr_state"
+            ],
+            "keyword_description": [
+                "patient",
+                "state",
+                "code"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Patient_Age",
+            "description": "Age of Patient",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "patient_age"
+            ],
+            "keyword_description": [
+                "age",
+                "of",
+                "patient"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "PT_addr_postal_key",
+            "description": "Patient Postal Code or Zip Code(Values missing)",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "pt_addr_postal_key"
+            ],
+            "keyword_description": [
+                "patient",
+                "postal",
+                "code",
+                "or",
+                "zip",
+                "code(values",
+                "missing)"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "HCP_name",
+            "description": "Name of Healthcare practioner",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "hcp_name"
+            ],
+            "keyword_description": [
+                "name",
+                "of",
+                "healthcare",
+                "practioner"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "prim_payer_nm",
+            "description": "Name of payer/health insurance provider",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "prim_payer_nm"
+            ],
+            "keyword_description": [
+                "name",
+                "of",
+                "payer/health",
+                "insurance",
+                "provider"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "prim_plan_is_medicare",
+            "description": "Name of payer/health insurance plan covered in Medicare channel or not?  Yes=1; No = 0;",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "prim_plan_is_medicare"
+            ],
+            "keyword_description": [
+                "name",
+                "of",
+                "payer/health",
+                "insurance",
+                "plan",
+                "covered",
+                "in",
+                "medicare",
+                "channel",
+                "or",
+                "not?",
+                "yes=1;",
+                "no",
+                "=",
+                "0;"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "prim_plan_is_medicaid",
+            "description": "Name of payer/health insurance plan covered in medicaid channel or not? Yes=1; No = 0;",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "prim_plan_is_medicaid"
+            ],
+            "keyword_description": [
+                "name",
+                "of",
+                "payer/health",
+                "insurance",
+                "plan",
+                "covered",
+                "in",
+                "medicaid",
+                "channel",
+                "or",
+                "not?",
+                "yes=1;",
+                "no",
+                "=",
+                "0;"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "prim_plan_pbm_nm",
+            "description": "Pharmacy benefit manager name",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "prim_plan_pbm_nm"
+            ],
+            "keyword_description": [
+                "pharmacy",
+                "benefit",
+                "manager",
+                "name"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "prim_plan_prior_auth",
+            "description": "Prior Authorization Code",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "prim_plan_prior_auth"
+            ],
+            "keyword_description": [
+                "prior",
+                "authorization",
+                "code"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "benefit_to_be_used_for_shire",
+            "description": "Payer channel description",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "benefit_to_be_used_for_shire"
+            ],
+            "keyword_description": [
+                "payer",
+                "channel",
+                "description"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "prim_plan_nm",
+            "description": "Plan description",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "prim_plan_nm"
+            ],
+            "keyword_description": [
+                "plan",
+                "description"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "case_disposition_latest_notes",
+            "description": "Notes on disposition or case by PSM or PAM",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "case_disposition_latest_notes"
+            ],
+            "keyword_description": [
+                "notes",
+                "on",
+                "disposition",
+                "or",
+                "case",
+                "by",
+                "psm",
+                "or",
+                "pam"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Commercial_Vs_Government",
+            "description": "Type of payer channel, signifies government or private channel\nCategories: Commercial, Medicare, Medicaid or PBM",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "commercial_vs_government"
+            ],
+            "keyword_description": [
+                "type",
+                "of",
+                "payer",
+                "channel,",
+                "signifies",
+                "government",
+                "or",
+                "private",
+                "channel",
+                "categories:",
+                "commercial,",
+                "medicare,",
+                "medicaid",
+                "or",
+                "pbm"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "procurement_method",
+            "description": "Procurement Method categories : Pharmacy, Assignment of Benefits(AOB), Buy & Bill",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "procurement_method"
+            ],
+            "keyword_description": [
+                "procurement",
+                "method",
+                "categories",
+                ":",
+                "pharmacy,",
+                "assignment",
+                "of",
+                "benefits(aob),",
+                "buy",
+                "&",
+                "bill"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "unlimited_consent",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "unlimited_consent"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "pat_consent_current_ind",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "pat_consent_current_ind"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "training",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "training"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Procurement_Populated",
+            "description": "Procurement Information logged status",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "procurement_populated"
+            ],
+            "keyword_description": [
+                "procurement",
+                "information",
+                "logged",
+                "status"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Benefit_to_be_used_Populated",
+            "description": "Benefit Information loggedstatus",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "benefit_to_be_used_populated"
+            ],
+            "keyword_description": [
+                "benefit",
+                "information",
+                "loggedstatus"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Site_Of_Care",
+            "description": "It is the physical location where a patient gets care, hospital or clinic",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "site_of_care"
+            ],
+            "keyword_description": [
+                "it",
+                "is",
+                "the",
+                "physical",
+                "location",
+                "where",
+                "a",
+                "patient",
+                "gets",
+                "care,",
+                "hospital",
+                "or",
+                "clinic"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Site_of_Care_Populated",
+            "description": "Site of Care Information logged status",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "site_of_care_populated"
+            ],
+            "keyword_description": [
+                "site",
+                "of",
+                "care",
+                "information",
+                "logged",
+                "status"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "prim_plan_prior_auth_end_dt",
+            "description": "Prior Authorization end date",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "prim_plan_prior_auth_end_dt"
+            ],
+            "keyword_description": [
+                "prior",
+                "authorization",
+                "end",
+                "date"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "secd_plan_prior_auth_str_dt",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "secd_plan_prior_auth_str_dt"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "secd_plan_prior_auth_end_dt",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "secd_plan_prior_auth_end_dt"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "case_reason",
+            "description": "Case reason description ",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "case_reason"
+            ],
+            "keyword_description": [
+                "case",
+                "reason",
+                "description"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "lana_coupon_product_shipped_s",
+            "description": "Coupon Shipped Status",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "lana_coupon_product_shipped_s"
+            ],
+            "keyword_description": [
+                "coupon",
+                "shipped",
+                "status"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "current_coupon_disposition",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "current_coupon_disposition"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "PSL",
+            "description": "Patient Support Lead Name",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "psl"
+            ],
+            "keyword_description": [
+                "patient",
+                "support",
+                "lead",
+                "name"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Field_Director",
+            "description": "Patient Support Field Director Name",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "field_director"
+            ],
+            "keyword_description": [
+                "patient",
+                "support",
+                "field",
+                "director",
+                "name"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "triad_notes",
+            "description": "Notes on the case",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "triad_notes"
+            ],
+            "keyword_description": [
+                "notes",
+                "on",
+                "the",
+                "case"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Discontinue_or_Switch_Date",
+            "description": "Date when patient discontinues or switches therapy",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "discontinue_or_switch_date"
+            ],
+            "keyword_description": [
+                "date",
+                "discontinued",
+                "switch",
+                "therapy"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Transfer_PT",
+            "description": "Information if a patient has been moved from one location to another, typically for medical reasons",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "transfer_pt"
+            ],
+            "keyword_description": [
+                "information",
+                "if",
+                "a",
+                "patient",
+                "has",
+                "been",
+                "moved",
+                "from",
+                "one",
+                "location",
+                "to",
+                "another,",
+                "typically",
+                "for",
+                "medical",
+                "reasons"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "PI_A1_SOB",
+            "description": "Source of business tell us if patient is new or existing",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "pi_a1_sob"
+            ],
+            "keyword_description": [
+                "source",
+                "of",
+                "business",
+                "tell",
+                "us",
+                "if",
+                "patient",
+                "is",
+                "new",
+                "or",
+                "existing"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "viropharma_psc_pat_id",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "viropharma_psc_pat_id"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "PSM_Last_Contact",
+            "description": "Date information for last contact of PSM with patient",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "psm_last_contact"
+            ],
+            "keyword_description": [
+                "date",
+                "information",
+                "for",
+                "last",
+                "contact",
+                "of",
+                "psm",
+                "with",
+                "patient"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "cause_of_hypoparathyroidism",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "cause_of_hypoparathyroidism"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "surgery_dt",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "surgery_dt"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Last_Shipped_Date",
+            "description": "Date information for last shipment",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "last_shipped_date"
+            ],
+            "keyword_description": [
+                "date",
+                "information",
+                "for",
+                "last",
+                "shipment"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "phrmcy_pa_required",
+            "description": "Prior authorization for patient for this pharmacy",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "phrmcy_pa_required"
+            ],
+            "keyword_description": [
+                "prior",
+                "authorization",
+                "for",
+                "patient",
+                "for",
+                "this",
+                "pharmacy"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "prim_plan_phrmcy_prior_auth_st",
+            "description": "Prior authorization start date for patient for pharmacy",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "prim_plan_phrmcy_prior_auth_st"
+            ],
+            "keyword_description": [
+                "prior",
+                "authorization",
+                "start",
+                "date",
+                "patient",
+                "pharmacy"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Past_WC_Date",
+            "description": " the last date when a patient's workers' compensation case",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "past_wc_date"
+            ],
+            "keyword_description": [
+                "last",
+                "date",
+                "patient's",
+                "workers'",
+                "compensation",
+                "case"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Past_BV_Date",
+            "description": "Past benefit verification information",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "past_bv_date"
+            ],
+            "keyword_description": [
+                "past",
+                "benefit",
+                "verification",
+                "information"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "dt_min_bv_past",
+            "description": "Past benefit verification date information",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "dt_min_bv_past"
+            ],
+            "keyword_description": [
+                "past",
+                "benefit",
+                "verification",
+                "date",
+                "information"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "PA_Denied_Date",
+            "description": "Prior authorization denial date",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "pa_denied_date"
+            ],
+            "keyword_description": [
+                "prior",
+                "authorization",
+                "denial",
+                "date"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Appeal_Denied_Date",
+            "description": "Case appeal denial date",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "appeal_denied_date"
+            ],
+            "keyword_description": [
+                "case",
+                "appeal",
+                "denial",
+                "date"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Admin_Therapy_Date",
+            "description": "Initial registered therapy date",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "admin_therapy_date"
+            ],
+            "keyword_description": [
+                "initial",
+                "registered",
+                "therapy",
+                "date"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "appeal_assistance",
+            "description": "Date when support provided to patient or healthcare provider in the appeal process",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "appeal_assistance"
+            ],
+            "keyword_description": [
+                "date",
+                "when",
+                "support",
+                "provided",
+                "to",
+                "patient",
+                "or",
+                "healthcare",
+                "provider",
+                "in",
+                "the",
+                "appeal",
+                "process"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "first_office_outreach",
+            "description": "Date when initial contact was made by the Patient Services team to a medical office or healthcare provider",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "first_office_outreach"
+            ],
+            "keyword_description": [
+                "date",
+                "when",
+                "initial",
+                "contact",
+                "was",
+                "made",
+                "by",
+                "the",
+                "patient",
+                "services",
+                "team",
+                "to",
+                "a",
+                "medical",
+                "office",
+                "or",
+                "healthcare",
+                "provider"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Patient_Onboarding",
+            "description": "Date when patient was onboarded",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "patient_onboarding"
+            ],
+            "keyword_description": [
+                "date",
+                "when",
+                "patient",
+                "was",
+                "onboarded"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Patient_Caregiver",
+            "description": "Date when Caregiver was provided to patient. Patient Caregiver is an individual who provides primary care or support to a patient",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "patient_caregiver"
+            ],
+            "keyword_description": [
+                "date",
+                "when",
+                "caregiver",
+                "was",
+                "provided",
+                "to",
+                "patient.",
+                "patient",
+                "caregiver",
+                "is",
+                "an",
+                "individual",
+                "who",
+                "provides",
+                "primary",
+                "care",
+                "or",
+                "support",
+                "to",
+                "a",
+                "patient"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Denial_Followup",
+            "description": "Date of follow up on denied claims. The denial follow-up process ensures that further action is taken to resolve the issue",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "denial_followup"
+            ],
+            "keyword_description": [
+                "date",
+                "of",
+                "follow",
+                "up",
+                "on",
+                "denied",
+                "claims.",
+                "the",
+                "denial",
+                "follow-up",
+                "process",
+                "ensures",
+                "that",
+                "further",
+                "action",
+                "is",
+                "taken",
+                "to",
+                "resolve",
+                "the",
+                "issue"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "territory_id_number",
+            "description": "Territory code",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "territory_id_number"
+            ],
+            "keyword_description": [
+                "territory",
+                "code"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "splty_pharmacy_nm",
+            "description": "Specialty Pharmacy Name. Specialty Pharmacy provides patient services for medications used to treat rare or complex illnesses",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "splty_pharmacy_nm"
+            ],
+            "keyword_description": [
+                "specialty",
+                "pharmacy",
+                "name.",
+                "specialty",
+                "pharmacy",
+                "provides",
+                "patient",
+                "services",
+                "for",
+                "medications",
+                "used",
+                "to",
+                "treat",
+                "rare",
+                "or",
+                "complex",
+                "illnesses"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "homephone__c",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "homephone__c"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "personmobilephone",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "personmobilephone"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "phone",
+            "description": "Patient Phone Number",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "phone"
+            ],
+            "keyword_description": [
+                "patient",
+                "phone",
+                "number"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "otherphone__c",
+            "description": "Patient Alternate Phone Number",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "otherphone__c"
+            ],
+            "keyword_description": [
+                "patient",
+                "alternate",
+                "phone",
+                "number"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "aps_ok_to_leave_message_home__c",
+            "description": "?",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "aps_ok_to_leave_message_home__c"
+            ],
+            "keyword_description": [
+                "?"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "aps_ok_to_leave_message_mobile__c",
+            "description": "?",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "aps_ok_to_leave_message_mobile__c"
+            ],
+            "keyword_description": [
+                "?"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "aps_ok_to_leave_message_office__c",
+            "description": "?",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "aps_ok_to_leave_message_office__c"
+            ],
+            "keyword_description": [
+                "?"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "primary_language",
+            "description": "Primary language for patient",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "primary_language"
+            ],
+            "keyword_description": [
+                "primary",
+                "language",
+                "for",
+                "patient"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "etiology",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "etiology"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "sbs_patient_dependent_pn_iv_fluids",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "sbs_patient_dependent_pn_iv_fluids"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "aps_recordtypename__c",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "aps_recordtypename__c"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "current_disposition_reason__c",
+            "description": "Reason behind the current disposition or handling status of a patient's case",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "current_disposition_reason__c"
+            ],
+            "keyword_description": [
+                "reason",
+                "behind",
+                "the",
+                "current",
+                "disposition",
+                "or",
+                "handling",
+                "status",
+                "of",
+                "a",
+                "patient's",
+                "case"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "shr_nps_coupon_flag__c",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "shr_nps_coupon_flag__c"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "shr_nps_coup_case_product_shipped_date__c",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "shr_nps_coup_case_product_shipped_date__c"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "shr_nps_coup_case_product_shipped__c",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "shr_nps_coup_case_product_shipped__c"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "aps_primary_product__c",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "aps_primary_product__c"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "territory_id",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "territory_id"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "territory_number",
+            "description": "Territory code ",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "territory_number"
+            ],
+            "keyword_description": [
+                "territory",
+                "code"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Current_Terr",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "current_terr"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "primary_medical_self_funded__c",
+            "description": "Indicates whether a patient's primary health insurance is a self-funded or self-insured plan",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "primary_medical_self_funded__c"
+            ],
+            "keyword_description": [
+                "indicates",
+                "whether",
+                "a",
+                "patient's",
+                "primary",
+                "health",
+                "insurance",
+                "is",
+                "a",
+                "self-funded",
+                "or",
+                "self-insured",
+                "plan"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "self_funded_plan",
+            "description": "Indicates whether the patient's health insurance plan is a self-funded plan",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "self_funded_plan"
+            ],
+            "keyword_description": [
+                "indicates",
+                "whether",
+                "the",
+                "patient's",
+                "health",
+                "insurance",
+                "plan",
+                "is",
+                "a",
+                "self-funded",
+                "plan"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Disposition_reasons",
+            "description": "Refers to the specific reasons associated with the current status or outcome (disposition) of a patient\u2019s case, claim, or account",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "disposition_reasons"
+            ],
+            "keyword_description": [
+                "refers",
+                "to",
+                "the",
+                "specific",
+                "reasons",
+                "associated",
+                "with",
+                "the",
+                "current",
+                "status",
+                "or",
+                "outcome",
+                "(disposition)",
+                "of",
+                "a",
+                "patient\u2019s",
+                "case,",
+                "claim,",
+                "or",
+                "account"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Copay_Color_Mapping",
+            "description": "This field helps in visually distinguishing patients based on the amount they are expected to pay after assistance or insurance\nLow Copay - Green, representing patients with the least out-of-pocket expenses after assistance.\nModerate Copay - Yellow, signifying a mid-range copay.\nHigh Copay - Red or On Hold, indicating higher out-of-pocket costs, potentially due to fewer assistance options or higher-tier services.",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "copay_color_mapping"
+            ],
+            "keyword_description": [
+                "this",
+                "field",
+                "helps",
+                "in",
+                "visually",
+                "distinguishing",
+                "patients",
+                "based",
+                "on",
+                "the",
+                "amount",
+                "they",
+                "are",
+                "expected",
+                "to",
+                "pay",
+                "after",
+                "assistance",
+                "or",
+                "insurance",
+                "low",
+                "copay",
+                "-",
+                "green,",
+                "representing",
+                "patients",
+                "with",
+                "the",
+                "least",
+                "out-of-pocket",
+                "expenses",
+                "after",
+                "assistance.",
+                "moderate",
+                "copay",
+                "-",
+                "yellow,",
+                "signifying",
+                "a",
+                "mid-range",
+                "copay.",
+                "high",
+                "copay",
+                "-",
+                "red",
+                "or",
+                "on",
+                "hold,",
+                "indicating",
+                "higher",
+                "out-of-pocket",
+                "costs,",
+                "potentially",
+                "due",
+                "to",
+                "fewer",
+                "assistance",
+                "options",
+                "or",
+                "higher-tier",
+                "services."
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Copay_Status",
+            "description": "Typically indicates the status or outcome of a patient's copay assistance process",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "copay_status"
+            ],
+            "keyword_description": [
+                "typically",
+                "indicates",
+                "the",
+                "status",
+                "or",
+                "outcome",
+                "of",
+                "a",
+                "patient's",
+                "copay",
+                "assistance",
+                "process"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Copay_Steps",
+            "description": "It is used to track whether the patient\u2019s copay assistance request has been successfully processed, is pending, or has been denied",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "copay_steps"
+            ],
+            "keyword_description": [
+                "it",
+                "is",
+                "used",
+                "to",
+                "track",
+                "whether",
+                "the",
+                "patient\u2019s",
+                "copay",
+                "assistance",
+                "request",
+                "has",
+                "been",
+                "successfully",
+                "processed,",
+                "is",
+                "pending,",
+                "or",
+                "has",
+                "been",
+                "denied"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "has_claims",
+            "description": "It categorizes patients based on their enrollment status and historical claims activity",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "has_claims"
+            ],
+            "keyword_description": [
+                "it",
+                "categorizes",
+                "patients",
+                "based",
+                "on",
+                "their",
+                "enrollment",
+                "status",
+                "and",
+                "historical",
+                "claims",
+                "activity"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "copay_enrolled_date",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "copay_enrolled_date"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "copay_not_enrolled_Date",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "copay_not_enrolled_date"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "aps_preferred_languages__c",
+            "description": "Preferred languages of patients enrolled in Assistance Program Services. ",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "aps_preferred_languages__c"
+            ],
+            "keyword_description": [
+                "preferred",
+                "languages",
+                "of",
+                "patients",
+                "enrolled",
+                "in",
+                "assistance",
+                "program",
+                "services."
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "preferred_language",
+            "description": "Patient preffered language for service",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "preferred_language"
+            ],
+            "keyword_description": [
+                "patient",
+                "preffered",
+                "language",
+                "for",
+                "service"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "copay_initiation_verbal_dt",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "copay_initiation_verbal_dt"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "copay_first_received_dt",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "copay_first_received_dt"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "prim_plan_phrmcy_prior_auth_en",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "prim_plan_phrmcy_prior_auth_en"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Recent_create_dt",
+            "description": "the most recent creation date of an entry related to a patient's record or activity in the system",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "recent_create_dt"
+            ],
+            "keyword_description": [
+                "the",
+                "most",
+                "recent",
+                "creation",
+                "date",
+                "of",
+                "an",
+                "entry",
+                "related",
+                "to",
+                "a",
+                "patient\u2019s",
+                "record",
+                "or",
+                "activity",
+                "in",
+                "the",
+                "system"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Ref_Back_to_Copay_Date",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "ref_back_to_copay_date"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Ref_Back_to_Copay",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "ref_back_to_copay"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Transfer_to_Copay",
+            "description": "This is used to track the status or decision to move a patient from one type of support service like a  free drug program or a bridge program to a copay assistance program",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "transfer_to_copay"
+            ],
+            "keyword_description": [
+                "this",
+                "is",
+                "used",
+                "to",
+                "track",
+                "the",
+                "status",
+                "or",
+                "decision",
+                "to",
+                "move",
+                "a",
+                "patient",
+                "from",
+                "one",
+                "type",
+                "of",
+                "support",
+                "service",
+                "like",
+                "a",
+                "free",
+                "drug",
+                "program",
+                "or",
+                "a",
+                "bridge",
+                "program",
+                "to",
+                "a",
+                "copay",
+                "assistance",
+                "program"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "commercial_to_copay",
+            "description": " Typically tracks whether patients with commercial insurance have been directed or transitioned to a copay assistance program",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "commercial_to_copay"
+            ],
+            "keyword_description": [
+                "typically",
+                "tracks",
+                "whether",
+                "patients",
+                "with",
+                "commercial",
+                "insurance",
+                "have",
+                "been",
+                "directed",
+                "or",
+                "transitioned",
+                "to",
+                "a",
+                "copay",
+                "assistance",
+                "program"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Commercial_before_copay_case",
+            "description": " Typically tracks whether patients with commercial insurance have been directed or transitioned before copay assistance program",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "commercial_before_copay_case"
+            ],
+            "keyword_description": [
+                "typically",
+                "tracks",
+                "whether",
+                "patients",
+                "with",
+                "commercial",
+                "insurance",
+                "have",
+                "been",
+                "directed",
+                "or",
+                "transitioned",
+                "before",
+                "copay",
+                "assistance",
+                "program"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Transition_to_OnePath",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "transition_to_onepath"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Recent_Shipment_dt",
+            "description": "Recent Shipment Date",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "recent_shipment_dt"
+            ],
+            "keyword_description": [
+                "recent",
+                "shipment",
+                "date"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "rdcf_referral_reason",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "rdcf_referral_reason"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "case_hcp_city",
+            "description": "Healthcare Provider City",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "case_hcp_city"
+            ],
+            "keyword_description": [
+                "healthcare",
+                "provider",
+                "city"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "fpl",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "fpl"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "insurance_status",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "insurance_status"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "signed_date",
+            "description": "?",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "signed_date"
+            ],
+            "keyword_description": [
+                "?"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "non_surgical_cause",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "non_surgical_cause"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "frequency",
+            "description": "Dosage",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "frequency"
+            ],
+            "keyword_description": [
+                "dosage"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "pr_med_accepts_mfr_copay_prog",
+            "description": "Refers to whether a primary medical insurer accepts manufacturer copay programs",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "pr_med_accepts_mfr_copay_prog"
+            ],
+            "keyword_description": [
+                "refers",
+                "to",
+                "whether",
+                "a",
+                "primary",
+                "medical",
+                "insurer",
+                "accepts",
+                "manufacturer",
+                "copay",
+                "programs"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "pr_phar_accepts_mfr_copay_prog",
+            "description": "Refers to whether a pharmacy accepts manufacturer  copay programs",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "pr_phar_accepts_mfr_copay_prog"
+            ],
+            "keyword_description": [
+                "refers",
+                "to",
+                "whether",
+                "a",
+                "pharmacy",
+                "accepts",
+                "manufacturer",
+                "copay",
+                "programs"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "case_hcp_state",
+            "description": "Healthcare Provider State code",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "case_hcp_state"
+            ],
+            "keyword_description": [
+                "healthcare",
+                "provider",
+                "state",
+                "code"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "SOC_city",
+            "description": "Site of Care city",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "soc_city"
+            ],
+            "keyword_description": [
+                "site",
+                "of",
+                "care",
+                "city"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "SOC_state",
+            "description": "Site of Care state code",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "soc_state"
+            ],
+            "keyword_description": [
+                "site",
+                "of",
+                "care",
+                "state",
+                "code"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "max_inj_training_request_date",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "max_inj_training_request_date"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "max_injection_training_scheduled_date",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "max_injection_training_scheduled_date"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "max_injection_training_completed_date",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "max_injection_training_completed_date"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "max_injection_training_on_hold_date",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "max_injection_training_on_hold_date"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "max_injection_training_on_hold_end_date",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "max_injection_training_on_hold_end_date"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Max_Hello_Shipdate",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "max_hello_shipdate"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Min_Hello_shipment_dt_key",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "min_hello_shipment_dt_key"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "secd_payer",
+            "description": "Secondary Payer; This refers to the secondary or supplemental insurance that a patient might have in addition to their primary insurance",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "secd_payer"
+            ],
+            "keyword_description": [
+                "secondary",
+                "payer;",
+                "this",
+                "refers",
+                "to",
+                "the",
+                "secondary",
+                "or",
+                "supplemental",
+                "insurance",
+                "that",
+                "a",
+                "patient",
+                "might",
+                "have",
+                "in",
+                "addition",
+                "to",
+                "their",
+                "primary",
+                "insurance"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "splty",
+            "description": "HCP Specialty",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "splty"
+            ],
+            "keyword_description": [
+                "hcp",
+                "specialty"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "indication",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "indication"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "primary_language__c",
+            "description": "Patient preffered primary language for service",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "primary_language__c"
+            ],
+            "keyword_description": [
+                "patient",
+                "preffered",
+                "primary",
+                "language",
+                "for",
+                "service"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "dm_non_shipped",
+            "description": "Direct mail non shipped reason",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "dm_non_shipped"
+            ],
+            "keyword_description": [
+                "direct",
+                "mail",
+                "non",
+                "shipped",
+                "reason"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "dm_shipped_status",
+            "description": "Product shipped status",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "dm_shipped_status"
+            ],
+            "keyword_description": [
+                "product",
+                "shipped",
+                "status"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "time_between_recent_shipment",
+            "description": "Days between shipment",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "time_between_recent_shipment"
+            ],
+            "keyword_description": [
+                "days",
+                "between",
+                "shipment"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "coupon_disposition_color_mapping",
+            "description": "Represents a color-coded system for various coupon or copay program statuses, such as:\nGreen for successfully applied coupons,\nRed for rejected or expired coupons,\nYellow for pending or under review coupons.",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "coupon_disposition_color_mapping"
+            ],
+            "keyword_description": [
+                "represents",
+                "a",
+                "color-coded",
+                "system",
+                "for",
+                "various",
+                "coupon",
+                "or",
+                "copay",
+                "program",
+                "statuses,",
+                "such",
+                "as:",
+                "green",
+                "for",
+                "successfully",
+                "applied",
+                "coupons,",
+                "red",
+                "for",
+                "rejected",
+                "or",
+                "expired",
+                "coupons,",
+                "yellow",
+                "for",
+                "pending",
+                "or",
+                "under",
+                "review",
+                "coupons."
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "coupon_disposition_mapping",
+            "description": "Maps different coupon outcomes or dispositions such as successful application, rejection, expiration to standardized terms or codes",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "coupon_disposition_mapping"
+            ],
+            "keyword_description": [
+                "maps",
+                "different",
+                "coupon",
+                "outcomes",
+                "or",
+                "dispositions",
+                "such",
+                "as",
+                "successful",
+                "application,",
+                "rejection,",
+                "expiration",
+                "to",
+                "standardized",
+                "terms",
+                "or",
+                "codes"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "coupon_status",
+            "description": "the current state of the coupon or copay assistance program for a specific patient transaction",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "coupon_status"
+            ],
+            "keyword_description": [
+                "the",
+                "current",
+                "state",
+                "of",
+                "the",
+                "coupon",
+                "or",
+                "copay",
+                "assistance",
+                "program",
+                "for",
+                "a",
+                "specific",
+                "patient",
+                "transaction"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "non_surgical_cause_ref_ps_accnt_us",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "non_surgical_cause_ref_ps_accnt_us"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "prim_plan_phrmcy_prior_auth_en1",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "prim_plan_phrmcy_prior_auth_en1"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "referring_hcp_zip_2",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "referring_hcp_zip_2"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "id_sf",
+            "description": "Start form Unique Identifier",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "id_sf"
+            ],
+            "keyword_description": [
+                "start",
+                "form",
+                "unique",
+                "identifier"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "dt_sf_opn",
+            "description": "Start form open date",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "dt_sf_opn"
+            ],
+            "keyword_description": [
+                "start",
+                "form",
+                "open",
+                "date"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "dt_prod_frst_shp_for_sf",
+            "description": "Product first shipped date for start form",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "dt_prod_frst_shp_for_sf"
+            ],
+            "keyword_description": [
+                "product",
+                "first",
+                "shipped",
+                "date",
+                "for",
+                "start",
+                "form"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "ps_hcp_id",
+            "description": "Patient services case Healthcare Provider ID",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "ps_hcp_id"
+            ],
+            "keyword_description": [
+                "patient",
+                "services",
+                "case",
+                "healthcare",
+                "provider",
+                "id"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "id_pat_case_hcp",
+            "description": "Patient services case Healthcare Provider ID",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "id_pat_case_hcp"
+            ],
+            "keyword_description": [
+                "patient",
+                "services",
+                "case",
+                "healthcare",
+                "provider",
+                "id"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "i_incl_ta",
+            "description": "Flag indicating patient related to a included therapeutic area",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "i_incl_ta"
+            ],
+            "keyword_description": [
+                "flag",
+                "indicating",
+                "patient",
+                "related",
+                "to",
+                "a",
+                "included",
+                "therapeutic",
+                "area"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "i_incl_prod",
+            "description": "Flag indicating patient related to a included product",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "i_incl_prod"
+            ],
+            "keyword_description": [
+                "flag",
+                "indicating",
+                "patient",
+                "related",
+                "to",
+                "a",
+                "included",
+                "product"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "i_incl_case",
+            "description": "Flag indicating patient related to a included case",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "i_incl_case"
+            ],
+            "keyword_description": [
+                "flag",
+                "indicating",
+                "patient",
+                "related",
+                "to",
+                "a",
+                "included",
+                "case"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "case_type_pt_jour",
+            "description": "Field indicates the patient journey stage for case type",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "case_type_pt_jour"
+            ],
+            "keyword_description": [
+                "field",
+                "indicates",
+                "the",
+                "patient",
+                "journey",
+                "stage",
+                "for",
+                "case",
+                "type"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "missing_info_flag",
+            "description": "missing info reason in patient form",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "missing_info_flag"
+            ],
+            "keyword_description": [
+                "this",
+                "field",
+                "indicates",
+                "missing",
+                "info",
+                "reason",
+                "in",
+                "patient",
+                "form"
+            ],
+            "keyword_categorical_values": [
+                "Start Form Incomplete",
+                "Historical Records",
+                "MD Missing",
+                "PT Missing",
+                "Start Form Complete",
+                "MD and PT Missing",
+                "No Start Form",
+                "Complete"
+            ]
+        },
+        {
+            "name": "TAT_Calendar",
+            "description": "Turn around time between patient onboarding and product shipment",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "tat_calendar"
+            ],
+            "keyword_description": [
+                "turn",
+                "around",
+                "time",
+                "between",
+                "patient",
+                "onboarding",
+                "and",
+                "product",
+                "shipment"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "shipped_status",
+            "description": "Status of product shipment",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "shipped_status"
+            ],
+            "keyword_description": [
+                "status",
+                "of",
+                "product",
+                "shipment"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Age_Group",
+            "description": "Patient age group information",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "age_group"
+            ],
+            "keyword_description": [
+                "patient",
+                "age",
+                "group",
+                "information"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Ped",
+            "description": "Indicates whether patient is  Adult or pedriatric",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "ped"
+            ],
+            "keyword_description": [
+                "indicates",
+                "whether",
+                "patient",
+                "is",
+                "adult",
+                "or",
+                "pedriatric"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Current_Commercial_Case_Disposition",
+            "description": "Indicates whether the current case or disposition is commercial",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "current_commercial_case_disposition"
+            ],
+            "keyword_description": [
+                "indicates",
+                "whether",
+                "the",
+                "current",
+                "case",
+                "or",
+                "disposition",
+                "is",
+                "commercial"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Alpha_status",
+            "description": "Start form status; Pre launch or Post Launch",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "alpha_status"
+            ],
+            "keyword_description": [
+                "start",
+                "form",
+                "status;",
+                "pre",
+                "launch",
+                "or",
+                "post",
+                "launch"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Color_Mapping_Titles",
+            "description": "Start Form related information/status",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "color_mapping_titles"
+            ],
+            "keyword_description": [
+                "start",
+                "form",
+                "related",
+                "information/status"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Ship_Mapping",
+            "description": "Time frame for shipment for case",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": ["average turnaround time","median turnaround time"],
+            "keyword_name": [
+                "ship_mapping"
+            ],
+            "keyword_description": [
+                "time",
+                "frame",
+                "for",
+                "shipment",
+                "for",
+                "case"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "i_final_dispo",
+            "description": "Disposition status flag",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "i_final_dispo"
+            ],
+            "keyword_description": [
+                "disposition",
+                "status",
+                "flag"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "i_ns",
+            "description": "Patient never started therapy\nIf Flag = 1 then patient classified as Never Started; If Flag = 0 then patient not classified as Never Started",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "i_ns"
+            ],
+            "keyword_description": [
+                "patient",
+                "never",
+                "started",
+                "therapy",
+                "if",
+                "flag",
+                "=",
+                "1",
+                "then",
+                "patient",
+                "classified",
+                "as",
+                "never",
+                "started;",
+                "if",
+                "flag",
+                "=",
+                "0",
+                "then",
+                "patient",
+                "not",
+                "classified",
+                "as",
+                "never",
+                "started"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "i_dc",
+            "description": "Patient discontinued from therapy\nIf Flag = 1 then patient classified as Discontinued; If Flag = 0 then patient not classified as Discontinued",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "i_dc"
+            ],
+            "keyword_description": [
+                "patient",
+                "discontinued",
+                "from",
+                "therapy",
+                "if",
+                "flag",
+                "=",
+                "1",
+                "then",
+                "patient",
+                "classified",
+                "as",
+                "discontinued;",
+                "if",
+                "flag",
+                "=",
+                "0",
+                "then",
+                "patient",
+                "not",
+                "classified",
+                "as",
+                "discontinued"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "i_dc_sw",
+            "description": "Discontinued or switch flag",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "i_dc_sw"
+            ],
+            "keyword_description": [
+                "discontinued",
+                "or",
+                "switch",
+                "flag"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "i_sw",
+            "description": "Patient is switching from 1 particular product to another \nIf Flag = 1 then patient classified as switch; If Flag = 0 then patient not classified as switch",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "i_sw"
+            ],
+            "keyword_description": [
+                "patient",
+                "is",
+                "switching",
+                "from",
+                "1",
+                "particular",
+                "product",
+                "to",
+                "another",
+                "if",
+                "flag",
+                "=",
+                "1",
+                "then",
+                "patient",
+                "classified",
+                "as",
+                "switch;",
+                "if",
+                "flag",
+                "=",
+                "0",
+                "then",
+                "patient",
+                "not",
+                "classified",
+                "as",
+                "switch"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "i_ot",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "i_ot"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "i_cop_xfr_to_op",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "i_cop_xfr_to_op"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "i_op_xfr_to_cop",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "i_op_xfr_to_cop"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "i_prv_cas_oth",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "i_prv_cas_oth"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "enrollment_method",
+            "description": "Enrollment Method; Digital or Manual",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "enrollment_method"
+            ],
+            "keyword_description": [
+                "enrollment",
+                "method;",
+                "digital",
+                "or",
+                "manual"
+            ],
+            "keyword_categorical_values": [
+                "Digital Enrollment",
+                "Manual Enrollment"
+            ]
+        },
+        {
+            "name": "tat_business",
+            "description": "Turn around time from enrollment start to completion",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": ["average turnaround time", "median turnaround time"],
+            "keyword_name": [
+                "tat_business"
+            ],
+            "keyword_description": [
+                "turn",
+                "around",
+                "time",
+                "from",
+                "enrollment",
+                "start",
+                "to",
+                "completion"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "days_past_last_shipment",
+            "description": "Days between last shipment and the one prior to that",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "days_past_last_shipment"
+            ],
+            "keyword_description": [
+                "days",
+                "between",
+                "last",
+                "shipment",
+                "and",
+                "the",
+                "one",
+                "prior",
+                "to",
+                "that"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "shipments_over_45_days",
+            "description": "Flag to identify id TAT is over 45 days",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "shipments_over_45_days"
+            ],
+            "keyword_description": [
+                "flag",
+                "to",
+                "identify",
+                "id",
+                "tat",
+                "is",
+                "over",
+                "45",
+                "days"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "BV_Office_TAT",
+            "description": "Turn around time for Benefit Verification process by office",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "bv_office_tat"
+            ],
+            "keyword_description": [
+                "turn",
+                "around",
+                "time",
+                "for",
+                "benefit",
+                "verification",
+                "process",
+                "by",
+                "office"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "BV_Patient_TAT",
+            "description": "Turn around time for Benefit Verification process for patient",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "bv_patient_tat"
+            ],
+            "keyword_description": [
+                "turn",
+                "around",
+                "time",
+                "for",
+                "benefit",
+                "verification",
+                "process",
+                "for",
+                "patient"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "coup_tat_calendar_raw",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "coup_tat_calendar_raw"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "coup_denied_tat_raw",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "coup_denied_tat_raw"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "coup_tat_business_raw",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "coup_tat_business_raw"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "coup_approved_tat_raw",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "coup_approved_tat_raw"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "approved_tat",
+            "description": "Refers to the Turnaround Time  for Approved Cases, which measures the days from case initiation to approval.",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "approved_tat"
+            ],
+            "keyword_description": [
+                "refers",
+                "to",
+                "the",
+                "turnaround",
+                "time",
+                "for",
+                "approved",
+                "cases,",
+                "which",
+                "measures",
+                "the",
+                "days",
+                "from",
+                "case",
+                "initiation",
+                "to",
+                "approval."
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "denied_tat",
+            "description": "Indicates the Turnaround Time for Denied Cases, tracking the days taken from case initiation to a denial decision",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "denied_tat"
+            ],
+            "keyword_description": [
+                "indicates",
+                "the",
+                "turnaround",
+                "time",
+                "for",
+                "denied",
+                "cases,",
+                "tracking",
+                "the",
+                "days",
+                "taken",
+                "from",
+                "case",
+                "initiation",
+                "to",
+                "a",
+                "denial",
+                "decision"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "coup_shipped_status",
+            "description": "the status of coupon shipment, indicating whether a coupon has been shipped, is pending shipment, or failed",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "coup_shipped_status"
+            ],
+            "keyword_description": [
+                "the",
+                "status",
+                "of",
+                "coupon",
+                "shipment,",
+                "indicating",
+                "whether",
+                "a",
+                "coupon",
+                "has",
+                "been",
+                "shipped,",
+                "is",
+                "pending",
+                "shipment,",
+                "or",
+                "failed"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Copay_Direct_Patients",
+            "description": "Refers to patients who receive direct copay assistance through a patient services program",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "copay_direct_patients"
+            ],
+            "keyword_description": [
+                "refers",
+                "to",
+                "patients",
+                "who",
+                "receive",
+                "direct",
+                "copay",
+                "assistance",
+                "through",
+                "a",
+                "patient",
+                "services",
+                "program"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "enrollment_source",
+            "description": "Specifies the source of patient enrollment into the patient services program, such as a healthcare provider referral, pharmacy referral, or direct patient sign-up",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "enrollment_source"
+            ],
+            "keyword_description": [
+                "specifies",
+                "the",
+                "source",
+                "of",
+                "patient",
+                "enrollment",
+                "into",
+                "the",
+                "patient",
+                "services",
+                "program,",
+                "such",
+                "as",
+                "a",
+                "healthcare",
+                "provider",
+                "referral,",
+                "pharmacy",
+                "referral,",
+                "or",
+                "direct",
+                "patient",
+                "sign-up"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "transferred_comm_pts",
+            "description": "Refers to commercially insured patients who have been transferred within the system, possibly to a different service level, payer, or support program",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "transferred_comm_pts"
+            ],
+            "keyword_description": [
+                "refers",
+                "to",
+                "commercially",
+                "insured",
+                "patients",
+                "who",
+                "have",
+                "been",
+                "transferred",
+                "within",
+                "the",
+                "system,",
+                "possibly",
+                "to",
+                "a",
+                "different",
+                "service",
+                "level,",
+                "payer,",
+                "or",
+                "support",
+                "program"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "copay_approved",
+            "description": "Indicates whether copay assistance has been approved for a patient, often used to track eligibility and benefit status in patient services programs",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "copay_approved"
+            ],
+            "keyword_description": [
+                "indicates",
+                "whether",
+                "copay",
+                "assistance",
+                "has",
+                "been",
+                "approved",
+                "for",
+                "a",
+                "patient,",
+                "often",
+                "used",
+                "to",
+                "track",
+                "eligibility",
+                "and",
+                "benefit",
+                "status",
+                "in",
+                "patient",
+                "services",
+                "programs"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "rdcf_ind",
+            "description": "Reduced Copay Financial Indicator; used to identify patients who qualify for reduced copay assistance",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "rdcf_ind"
+            ],
+            "keyword_description": [
+                "reduced",
+                "copay",
+                "financial",
+                "indicator;",
+                "used",
+                "to",
+                "identify",
+                "patients",
+                "who",
+                "qualify",
+                "for",
+                "reduced",
+                "copay",
+                "assistance"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "cmrcl_ind",
+            "description": "Commercial Indicator; This is used to differentiate commercially insured patients from those with government insurance or no insurance",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "cmrcl_ind"
+            ],
+            "keyword_description": [
+                "commercial",
+                "indicator;",
+                "this",
+                "is",
+                "used",
+                "to",
+                "differentiate",
+                "commercially",
+                "insured",
+                "patients",
+                "from",
+                "those",
+                "with",
+                "government",
+                "insurance",
+                "or",
+                "no",
+                "insurance"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "copay_direct_ind",
+            "description": "An indicator that denotes whether the patient directly receives copay assistance",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "copay_direct_ind"
+            ],
+            "keyword_description": [
+                "an",
+                "indicator",
+                "that",
+                "denotes",
+                "whether",
+                "the",
+                "patient",
+                "directly",
+                "receives",
+                "copay",
+                "assistance"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "coupon_dispo_ind",
+            "description": "Coupon Disposition Indicator; This tracks the status of a coupon assistance as approved, denied, pending",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "coupon_dispo_ind"
+            ],
+            "keyword_description": [
+                "coupon",
+                "disposition",
+                "indicator;",
+                "this",
+                "tracks",
+                "the",
+                "status",
+                "of",
+                "a",
+                "coupon",
+                "assistance",
+                "as",
+                "approved,",
+                "denied,",
+                "pending"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "copay_transfer_case_ind",
+            "description": "This shows if a copay case has been transferred, possibly to another team, payer, or support program, to ensure continuity of assistance",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "copay_transfer_case_ind"
+            ],
+            "keyword_description": [
+                "this",
+                "shows",
+                "if",
+                "a",
+                "copay",
+                "case",
+                "has",
+                "been",
+                "transferred,",
+                "possibly",
+                "to",
+                "another",
+                "team,",
+                "payer,",
+                "or",
+                "support",
+                "program,",
+                "to",
+                "ensure",
+                "continuity",
+                "of",
+                "assistance"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "current_case_ind",
+            "description": "1 if the case is currently active; else 0",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": ["start form received","patient shipped","active patient","average turnaround time", "median turnaround time", "discontinued therapy", "switching therapy"],
+            "keyword_name": [
+                "current_case_ind"
+            ],
+            "keyword_description": [
+                "identifies",
+                "if",
+                "the",
+                "case",
+                "is",
+                "currently",
+                "active"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "rdcf_case_duration_business_days_curr_raw",
+            "description": "Duration in business days for the current RDCF case is active",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "rdcf_case_duration_business_days_curr_raw"
+            ],
+            "keyword_description": [
+                "duration",
+                "in",
+                "business",
+                "days",
+                "for",
+                "the",
+                "current",
+                "rdcf",
+                "case",
+                "is",
+                "active"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "rdcf_case_duration_business_days_cls_raw",
+            "description": "Duration in business days for the current RDCF case is closed",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "rdcf_case_duration_business_days_cls_raw"
+            ],
+            "keyword_description": [
+                "duration",
+                "in",
+                "business",
+                "days",
+                "for",
+                "the",
+                "current",
+                "rdcf",
+                "case",
+                "is",
+                "closed"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "payor_covered_product",
+            "description": "Indicates whether the payer (insurance) covers the specific product prescribed, which is crucial for determining coverage and copay needs",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "payor_covered_product"
+            ],
+            "keyword_description": [
+                "indicates",
+                "whether",
+                "the",
+                "payer",
+                "(insurance)",
+                "covers",
+                "the",
+                "specific",
+                "product",
+                "prescribed,",
+                "which",
+                "is",
+                "crucial",
+                "for",
+                "determining",
+                "coverage",
+                "and",
+                "copay",
+                "needs"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "primary_med_accumulator",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "primary_med_accumulator"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "primary_pharm_accumulator",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "primary_pharm_accumulator"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Denial_Followup_TAT",
+            "description": "Measures the turnaround time in days for follow-up actions after a denial, tracking how quickly the case is re-evaluated or resolved",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "denial_followup_tat"
+            ],
+            "keyword_description": [
+                "measures",
+                "the",
+                "turnaround",
+                "time",
+                "in",
+                "days",
+                "for",
+                "follow-up",
+                "actions",
+                "after",
+                "a",
+                "denial,",
+                "tracking",
+                "how",
+                "quickly",
+                "the",
+                "case",
+                "is",
+                "re-evaluated",
+                "or",
+                "resolved"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "d_pat_case_rsn",
+            "description": "Reason explaining why the case was opened, such as case change or new case",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "d_pat_case_rsn"
+            ],
+            "keyword_description": [
+                "reason",
+                "explaining",
+                "why",
+                "the",
+                "case",
+                "was",
+                "opened,",
+                "such",
+                "as",
+                "case",
+                "change",
+                "or",
+                "new",
+                "case"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "dt_pat_case_opn",
+            "description": "Indicating when case was opened for the patient",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "dt_pat_case_opn"
+            ],
+            "keyword_description": [
+                "indicating",
+                "when",
+                "case",
+                "was",
+                "opened",
+                "for",
+                "the",
+                "patient"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "d_pat_case_typ",
+            "description": "Represents the type of patient case",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "d_pat_case_typ"
+            ],
+            "keyword_description": [
+                "represents",
+                "the",
+                "type",
+                "of",
+                "patient",
+                "case"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "dt_pat_case_cls",
+            "description": "The date when patient case was closed",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "dt_pat_case_cls"
+            ],
+            "keyword_description": [
+                "patient",
+                "date",
+                "when",
+                "case",
+                "closed",
+                "case close",
+                "case close date"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "n_seq",
+            "description": "Sequence Number",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "n_seq"
+            ],
+            "keyword_description": [
+                "sequence",
+                "number"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "i_pat_case_clsd",
+            "description": "Indicates wheter patient case of closed",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "i_pat_case_clsd"
+            ],
+            "keyword_description": [
+                "indicates",
+                "wheter",
+                "patient",
+                "case",
+                "of",
+                "closed"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "i_sf_xfr",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "i_sf_xfr"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "i_sf_ins_md_sp_soc_chg",
+            "description": "indicates a change in start form for insurance, medical, specialty pharmacy, or site of care, helps to identify cases needing follow-up after changes",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "i_sf_ins_md_sp_soc_chg"
+            ],
+            "keyword_description": [
+                "indicates",
+                "a",
+                "change",
+                "in",
+                "start",
+                "form",
+                "for",
+                "insurance,",
+                "medical,",
+                "specialty",
+                "pharmacy,",
+                "or",
+                "site",
+                "of",
+                "care,",
+                "helps",
+                "to",
+                "identify",
+                "cases",
+                "needing",
+                "follow-up",
+                "after",
+                "changes"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "dt_pat_case_opn_c",
+            "description": "Adjusted date when the patient coupon case was opened",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "dt_pat_case_opn_c"
+            ],
+            "keyword_description": [
+                "adjusted",
+                "coupon",
+                "date",
+                "when",
+                "the",
+                "patient",
+                "case",
+                "was",
+                "opened"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "i_sf_new",
+            "description": "Indicating if start form is new",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "i_sf_new"
+            ],
+            "keyword_description": [
+                "indicating",
+                "if",
+                "start",
+                "form",
+                "is",
+                "new"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "i_excl",
+            "description": "Case exclusion indicator",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "i_excl"
+            ],
+            "keyword_description": [
+                "case",
+                "exclusion",
+                "indicator"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "i_sf_xfr_c",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "i_sf_xfr_c"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "d_pat_case_opn_ref_yr",
+            "description": "Year the patient case was opened",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "d_pat_case_opn_ref_yr"
+            ],
+            "keyword_description": [
+                "year",
+                "the",
+                "patient",
+                "case",
+                "was",
+                "opened"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "d_pat_case_opn_ref_ccyymm",
+            "description": "Year & month the patient case was opened",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "d_pat_case_opn_ref_ccyymm"
+            ],
+            "keyword_description": [
+                "year",
+                "&",
+                "month",
+                "the",
+                "patient",
+                "case",
+                "was",
+                "opened"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "i_sf_naive",
+            "description": "Indicates if start form is for new patient",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "i_sf_naive"
+            ],
+            "keyword_description": [
+                "indicates",
+                "if",
+                "start",
+                "form",
+                "is",
+                "for",
+                "new",
+                "patient"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "i_sf_resubmit",
+            "description": "Indicates if start form for patient is resubmitted for review or appeal",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "i_sf_resubmit"
+            ],
+            "keyword_description": [
+                "indicates",
+                "if",
+                "start",
+                "form",
+                "for",
+                "patient",
+                "is",
+                "resubmitted",
+                "for",
+                "review",
+                "or",
+                "appeal"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "i_sf_restart",
+            "description": "Indicates if start form is for restart patient",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "i_sf_restart"
+            ],
+            "keyword_description": [
+                "indicates",
+                "if",
+                "start",
+                "form",
+                "is",
+                "for",
+                "restart",
+                "patient"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "rec_dt_prod_shipped_dt_rs",
+            "description": "The date when product was re-shipped",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "rec_dt_prod_shipped_dt_rs"
+            ],
+            "keyword_description": [
+                "the",
+                "date",
+                "when",
+                "product",
+                "was",
+                "re-shipped"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "n_sfs",
+            "description": "No of start forms for patients",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "n_sfs"
+            ],
+            "keyword_description": [
+                "no",
+                "of",
+                "start",
+                "forms",
+                "for",
+                "patients"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "n_sf_resubmits",
+            "description": "No of start forms resubmitted",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "n_sf_resubmits"
+            ],
+            "keyword_description": [
+                "no",
+                "of",
+                "start",
+                "forms",
+                "resubmitted"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "n_sf_restarts",
+            "description": "No of start forms for restart patients",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "n_sf_restarts"
+            ],
+            "keyword_description": [
+                "no",
+                "of",
+                "start",
+                "forms",
+                "for",
+                "restart",
+                "patients"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "dt_min_sf_pat_case_opn",
+            "description": "Earliest open date for start form tied to the patient's case",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "dt_min_sf_pat_case_opn"
+            ],
+            "keyword_description": [
+                "earliest",
+                "open",
+                "date",
+                "for",
+                "start",
+                "form",
+                "tied",
+                "to",
+                "the",
+                "patient's",
+                "case"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "dt_max_sf_pat_case_opn",
+            "description": "Most recent open date for start form tied to the patient's case",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "dt_max_sf_pat_case_opn"
+            ],
+            "keyword_description": [
+                "most",
+                "recent",
+                "open",
+                "date",
+                "for",
+                "start",
+                "form",
+                "tied",
+                "to",
+                "the",
+                "patient's",
+                "case"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "coup_tat_calendar",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "coup_tat_calendar"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "active_rdcf_cases",
+            "description": "Active reduced copay financial cases",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "active_rdcf_cases"
+            ],
+            "keyword_description": [
+                "active",
+                "reduced",
+                "copay",
+                "financial",
+                "cases"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "case_duration_business_days",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "case_duration_business_days"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "dg",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "dg"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "coup_tat_business",
+            "description": "Business day TAT for coupon cases",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "coup_tat_business"
+            ],
+            "keyword_description": [
+                "business",
+                "day",
+                "tat",
+                "for",
+                "coupon",
+                "cases"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "duration_of_rdcf",
+            "description": "Duration of RDCF cases in days",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "duration_of_rdcf"
+            ],
+            "keyword_description": [
+                "duration",
+                "of",
+                "rdcf",
+                "cases",
+                "in",
+                "days"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "coup_ship_mapping",
+            "description": "Coupon Status",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "coup_ship_mapping"
+            ],
+            "keyword_description": [
+                "coupon",
+                "status"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "Pending_Dispo_Age_Group",
+            "description": "The age group of patients with pending dispositions",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "pending_dispo_age_group"
+            ],
+            "keyword_description": [
+                "the",
+                "age",
+                "group",
+                "of",
+                "patients",
+                "with",
+                "pending",
+                "dispositions"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "dt_final_dispo",
+            "description": "Date of the final disposition for the patient case",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "dt_final_dispo"
+            ],
+            "keyword_description": [
+                "date",
+                "of",
+                "the",
+                "final",
+                "disposition",
+                "for",
+                "the",
+                "patient",
+                "case"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "dt_cop_case_opn",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "dt_cop_case_opn"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "dt_cmrcl_case_opn",
+            "description": "Commercial case open date",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "dt_cmrcl_case_opn"
+            ],
+            "keyword_description": [
+                "commercial",
+                "case",
+                "open",
+                "date"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "dt_ns",
+            "description": "New patient case open date",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "dt_ns"
+            ],
+            "keyword_description": [
+                "new",
+                "patient",
+                "case",
+                "open",
+                "date"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "dt_dc",
+            "description": "Discontinued case open date",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "dt_dc"
+            ],
+            "keyword_description": [
+                "discontinued",
+                "case",
+                "open",
+                "date"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "dt_dc_sw",
+            "description": "Discontinued or switch case open date",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "dt_dc_sw"
+            ],
+            "keyword_description": [
+                "discontinued",
+                "or",
+                "switch",
+                "case",
+                "open",
+                "date"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "dt_sw",
+            "description": "Switch case open date",
+            "id": "No",
+            "keyword_datecolumn": "Yes",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "dt_sw"
+            ],
+            "keyword_description": [
+                "switch",
+                "case",
+                "open",
+                "date"
+            ],
+            "keyword_categorical_values": []
+        },
+        {
+            "name": "dt_ot",
+            "description": "",
+            "id": "No",
+            "keyword_datecolumn": "No",
+            "keyword_formulas": [],
+            "keyword_name": [
+                "dt_ot"
+            ],
+            "keyword_description": [],
+            "keyword_categorical_values": []
+        }
+    ]
+}

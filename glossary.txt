@@ -1,0 +1,24 @@
+
+1. Start Forms Received: The total number of forms received for patients. This is calculated by counting the distinct case ids, where 'current_case_ind' is 1.
+
+2. Patients Shipped: The number of patients who have received shipments of products.
+Count of non-null product shipment dates where the case is currently active (current_case_ind = 1).
+
+3. Active Patients: The number of patients who are currently active in the system.
+Count of distinct patients who have an active case (current_case_ind = 1) and whose color mapping is one of the following: 'Green', 'Yellow', or 'On Hold'.
+in case of date calculation for active patients consider the start form first received date if applicable.
+
+4. Average Turnaround Time: The average turnaround time from enrollment start to completion for all active cases. Average of the turnaround time (TAT_Business) for active cases where the shipment mapping is not 'Black'.
+
+5. median turnaround time: The median turnaround time, derived from the dataset (since the median function is not supported in Databricks SQL). It represents the midpoint of the turnaround times for all active cases where the shipment mapping is not 'Black'.
+Median of the turnaround time (TAT_Business) for active cases where the shipment mapping is not 'Black'.
+
+6. discontinued therapy: The number of patients who have discontinued their therapy.
+Count of distinct patients with the disposition reason set to 'Discontinued Therapy' where 'current_case_ind' is 1.
+
+7. switching therapy: The number of patients who are switching their therapy.
+Count of distinct patients with the disposition reason set to 'Switching Therapy' and an active case (current_case_ind = 1).
+
+disposition is when the patient is no longer active for a long time.
+
+active patients can be equivalent to patients onboarded.
